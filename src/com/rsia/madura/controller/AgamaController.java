@@ -1,7 +1,9 @@
 package com.rsia.madura.controller;
 
 import java.sql.Timestamp;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -34,6 +36,13 @@ public class AgamaController {
 		model.addAttribute("agama", result);
 		model.addAttribute("link", link);
 		model.addAttribute("agamaModel", agamaModel);
+		
+		
+		Map<String, String> goldar = new HashMap<String, String>();
+		goldar.put("A", "A");
+		goldar.put("AB", "AB");
+		
+		model.addAttribute("Goldar", goldar);
 		
 		return "/Agama/AgamaAddForm";
 	}

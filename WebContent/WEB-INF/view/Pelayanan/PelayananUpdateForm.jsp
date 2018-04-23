@@ -38,7 +38,7 @@
 						<div class="col-md-6">
 							<div class="card card-block sameheight-item">
 								<div class="title-block">
-									<h3 class="title"> Data Agama </h3>
+									<h3 class="title"> Data Pelayanan Update</h3>
 								</div>
 								
 								<form:form modelAttribute="agamaModel" method="POST" action="../store">

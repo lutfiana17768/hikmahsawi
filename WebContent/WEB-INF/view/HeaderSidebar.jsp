@@ -100,8 +100,32 @@
 		<nav class="menu">
 			<ul class="sidebar-menu metismenu" id="sidebar-menu">
 				<li>
-					<a href="index.html">
+					<a href="http://localhost:8080/com.rsia.modura/Agama/tambah/?page=1&limit=10">
 						<i class="fa fa-home"></i> Dashboard 
+					</a>
+				</li>
+				
+				<li>
+					<a href="index.html">
+						<i class="fa fa-home"></i> Dashboard XXX
+					</a>
+				</li>
+				
+				<li>
+					<a href="index.html">
+						<i class="fa fa-home"></i> Dashboard XXXY
+					</a>
+				</li>
+				
+				<li>
+					<a href="http://localhost:8080/com.rsia.modura/Pelayanan/tambah/?page=1&limit=10">
+						<i class="fa fa-home"></i> Dashboard XXXY ADD
+					</a>
+				</li>
+				
+				<li>
+					<a href="http://localhost:8080/com.rsia.modura/Pelayanan/form-update/1">
+						<i class="fa fa-home"></i> Dashboard XXXY Update
 					</a>
 				</li>
 			</ul>
