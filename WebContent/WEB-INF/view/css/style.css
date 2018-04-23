@@ -1,0 +1,27 @@
+.d_pasien-content {
+	padding: 0;
+	display: flex;
+}
+.d_pasien-form {
+	width: 100%;
+}
+@media (max-width: 767px) {
+	.pasien-form {
+		width: 100%;
+		margin-bottom: 0;
+	}
+}
+.d_pasien-button {
+	float: right;
+}
+label {
+	font-size: small;
+}
+.nav-title {
+	margin-left: 20px;
+}
+.input-label {
+	vertical-align:middle;
+	font-weight: normal;
+	font-size: 12px
+}
