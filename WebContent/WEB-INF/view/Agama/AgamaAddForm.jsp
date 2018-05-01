@@ -25,19 +25,13 @@
 <body>
 	<div class="main-wrapper">
 		<div class="app" id="app">
-<<<<<<< HEAD
 		
-=======
->>>>>>> 873e1e4d8681e08d225dc0925221cf3ad5b21b38
 			<jsp:include page="../HeaderSidebar.jsp"></jsp:include>
 			
 			
 			<!-- MAIN HERE -->
 			<article class="content forms-page">
-<<<<<<< HEAD
 				<!-- Form -->
-=======
->>>>>>> 873e1e4d8681e08d225dc0925221cf3ad5b21b38
 				<section class="section">
 					<div class="row sameheight-container">
 						<div class="col-md-3"></div>
