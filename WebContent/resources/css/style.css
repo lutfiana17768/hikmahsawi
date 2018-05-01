@@ -1,0 +1,16 @@
+.d_pasien-content {
+	padding: 0;
+	display: flex;
+}
+.d_pasien-form {
+	width: 100%;
+}
+@media (max-width: 767px) {
+	.pasien-form {
+		width: 100%;
+		margin-bottom: 0;
+	}
+}
+.d_pasien-button {
+	float: right;
+}
