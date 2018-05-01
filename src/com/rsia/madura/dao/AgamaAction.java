@@ -33,7 +33,7 @@ public class AgamaAction implements AgamaDAO {
 	public List<m_Agama> getAgamas(int page, int limit) {
 		// TODO Auto-generated method stub
 		Session current = sessionFactory.getCurrentSession();
-		Query<m_Agama> query = current.createQuery("from m_Agama", m_Agama.class);
+		Query<m_Agama> query = current.createQuery("from m_Agama where agamaAktif = 'Y'", m_Agama.class);
 		List<m_Agama> agama = query.getResultList();
 		this.total = agama.size();
 		agama = this.getData(page, limit);
@@ -43,7 +43,7 @@ public class AgamaAction implements AgamaDAO {
 
 	public List<m_Agama> getData(int page, int limit) {
 		Session current = sessionFactory.getCurrentSession();
-		Query<m_Agama> query = current.createQuery("from m_Agama", m_Agama.class).setFirstResult((page - 1) * limit)
+		Query<m_Agama> query = current.createQuery("from m_Agama where agamaAktif = 'Y'", m_Agama.class).setFirstResult((page - 1) * limit)
 				.setMaxResults(limit);
 		List<m_Agama> Result = query.getResultList();
 
