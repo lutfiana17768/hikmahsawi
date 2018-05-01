@@ -40,9 +40,9 @@
 								<div class="title-block">
 									<h3 class="title"> Data Agama </h3>
 								</div>
-<<<<<<< HEAD
-								
+
 								<form:form modelAttribute="agamaModel" method="POST" action="../store">
+									
 									<!-- For Ayub -->
 									<div class="form-group">
 										<label>Nama</label>
@@ -75,34 +75,14 @@
 									    <button type="submit" class="btn btn-primary">Simpan</button>
 									</div>
 								</form:form>    
-=======
-								<form:form modelAttribute="agamaModel" method="POST" action="../store">
-                                      
-                                       <div class="form-group">
-                                           <label>Nama</label>
-                                           <form:input path="agamaNama" placeholder="Masukan Nama" class="form-control"/>
-                                        </div>
-                                       
-                                       <div class="form-group">
-                                           <label>Keterangan</label>
-                                           <form:input path="agamaKeterangan" placeholder="Masukan Keterangan" class="form-control"/>
-                                        </div>
-                                   
-                                       <div class="form-group">
-                                           <button type="submit" class="btn btn-primary">Simpan</button>
-                                       </div>
-                                   </form:form>    
->>>>>>> 873e1e4d8681e08d225dc0925221cf3ad5b21b38
+
 							</div>
 						</div>
 					</div>
 				</section>
-<<<<<<< HEAD
 				<!-- End Form -->
 				
 				<!-- List -->
-=======
->>>>>>> 873e1e4d8681e08d225dc0925221cf3ad5b21b38
 				<section class="section">
                        <div class="row">
                            <div class="col-md-12">
